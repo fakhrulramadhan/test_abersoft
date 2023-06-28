@@ -1,0 +1,38 @@
+name: test_abersoft
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter: 
+    sdk: flutter
+  http: ^1.1.0
+  freezed: ^2.3.5
+  freezed_annotation: ^2.2.0
+  json_annotation: ^4.8.1
+  json_serializable: ^6.7.0
+  build_runner: ^2.4.5
+  connectivity_plus: ^4.0.1
+  form_field_validator: ^1.1.0
+  permission_handler: ^10.3.0
+  build_verify: ^3.1.0
+  flutter_dotenv: ^5.1.0
+  get_storage: ^2.1.1
+  dio: ^5.2.1+1
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets: 
+    - assets/pictures/abersoft.png
+     # Environtment
+    - env/.env_test
+  uses-material-design: true
+
