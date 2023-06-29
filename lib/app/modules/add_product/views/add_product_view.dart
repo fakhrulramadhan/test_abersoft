@@ -159,7 +159,8 @@ class AddProductView extends GetView<AddProductController> {
                         controller.onSubmit();
                       },
                       style: ElevatedButton.styleFrom(
-                          minimumSize: const Size.fromHeight(42)),
+                          minimumSize: const Size.fromHeight(42),
+                          backgroundColor: Colors.blue.shade900),
                       child: const Text(
                         'Log In',
                         style: TextStyle(color: Colors.white),
