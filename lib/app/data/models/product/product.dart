@@ -14,4 +14,7 @@ class Product with _$Product {
 
   factory Product.fromJson(Map<String, dynamic> json) =>
       _$ProductFromJson(json);
+
+  static List<Product> listFromJson(list) =>
+      List<Product>.from(list.map((x) => Product.fromJson(x)));
 }

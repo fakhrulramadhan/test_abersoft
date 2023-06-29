@@ -54,7 +54,7 @@ class LoginView extends GetView<LoginController> {
                                 controller: controller.usernameCtrl,
                                 validator: MultiValidator([
                                   RequiredValidator(
-                                      errorText: 'Username wajib di isi'),
+                                      errorText: 'Username is required'),
                                 ]),
                                 autovalidateMode:
                                     AutovalidateMode.onUserInteraction,
@@ -63,7 +63,7 @@ class LoginView extends GetView<LoginController> {
                                     controller: controller.passwordCtrl,
                                     validator: MultiValidator([
                                       RequiredValidator(
-                                          errorText: 'Password wajib di isi'),
+                                          errorText: 'Password is required'),
                                     ]),
                                     obscureText: controller.shownPassword.value,
                                     autovalidateMode:
